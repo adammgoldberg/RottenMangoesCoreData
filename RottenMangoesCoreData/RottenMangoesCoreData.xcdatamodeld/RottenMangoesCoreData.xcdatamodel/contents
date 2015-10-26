@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Movie" representedClassName="Movie" syncable="YES">
+        <attribute name="movieImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="movieRating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieReview" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieRunTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieYear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reviewURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Movie" positionX="-27" positionY="18" width="128" height="150"/>
+    </elements>
+</model>
